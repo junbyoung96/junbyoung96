@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>공연예매</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        a {
+            float: right;
+        }
+    </style>
+</head>
+<script>
+    function goConcertDetail(num){
+        location.href = "ConcertDetail" +num +".html"
+    }
+</script>
+<body>
+        <div>
+            <h1 style="text-align: center;">공연 예매 사이트</h1>
+            <a href="Login.html">Login </a>
+            <a href="OrderList.html">주문 내역</a>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><img src="./img/콘서트1.jpg" onclick="goConcertDetail(1)"></td>
+                    <td><img src="./img/콘서트2.jpg" onclick="goConcertDetail(2)"></td>                                            
+                </tr>
+                <tr>
+                    <td>2054-03-11</td>
+                    <td>2033-06-11</td>                    
+                </tr>
+                <tr>
+                    <td>콘서트 7080</td>
+                    <td>나훈아 콘서트</td>                    
+                </tr>
+                <tr>
+                    <td>10000원</td>
+                    <td>1000000원</td>                                      
+                </tr>
+            </table>
+        </div>
+        
+        
+    
+</body>
+</html>
