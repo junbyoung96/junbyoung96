@@ -3,15 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <title>회원가입</title>
-    <link rel="stylesheet" href="css/common.css">
-    <style>
-        h1 {
-            text-align: center;
-        }
-        form {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/common.css">    
 </head>
 <script>
     function EmailCertify(){
@@ -20,14 +12,19 @@
     function PwCertify(){
         //비밀번호검증
     }
+    function TelCertify(){
+        //연락처검증
+    }
 </script>
 <body>
     <h1>회원가입</h1>
     <form action="MemberInsert.do">
         이름 : <input name="Name" type="text"><br>
-        Email : <input id="ID" name="ID" type="text"><input type="button" onclick="EmailCertify()" value="인증"><br>
+        ID : <input name="ID" type="text"><br>        
         비밀번호 : <input id="PW_1" name="PW_1" type="password"><input type="button" onclick="PwCertify()" value="인증"><br>
         비밀번호 재확인 : <input id="PW_2" name="PW_2" type="password"><br>
+        Email : <input id="Email" name="Email" type="text"><input type="button" onclick="EmailCertify()" value="인증"><br>
+        연락처 : <input id="TEL" name="TEL" type="text"><input type="button" onclick="TelCertify()" value="인증"><br>
         <input type="submit" value="회원가입"><br>
         <a href="Login.html">뒤로가기</a>
     </form>
