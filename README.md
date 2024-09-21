@@ -22,7 +22,10 @@
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
----
+
+## Projects
+* [LottoMap Backend](https://github.com/lotto-map/lotto-map-back)
+
 ## 자격증/교육과정
 * 정보처리기능사
 * 정보처리산업기사
@@ -33,7 +36,7 @@
 
 ## Programmers
 ![Programmers Badge](https://raw.githubusercontent.com/junbyoung96/github-programmers-rank/master/lib/result.svg)
-## Projects
+
 
 
 <!--
