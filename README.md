@@ -25,6 +25,7 @@
 
 ## Projects
 * [LottoMap Backend](https://github.com/lotto-map/lotto-map-back)
+* [Board API MSA](https://github.com/board-api-msa)
 
 ## 자격증/교육과정
 * 정보처리기능사
